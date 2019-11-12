@@ -14,7 +14,7 @@ func main() {
 	go receive(even, odd, fanin)
 
 	for v := range fanin {
-		fmt.Println("Fanin: ",v)
+		fmt.Println("Fanin: ", v)
 	}
 	fmt.Println("About to exit")
 }
@@ -39,7 +39,7 @@ func receive(even, odd <-chan int, fanin chan<- int) {
 	go func() {
 		for v := range even {
 			fanin <- v
-			
+
 		}
 		wg.Done()
 	}()
@@ -47,7 +47,7 @@ func receive(even, odd <-chan int, fanin chan<- int) {
 	go func() {
 		for v := range odd {
 			fanin <- v
-			
+
 		}
 		wg.Done()
 	}()

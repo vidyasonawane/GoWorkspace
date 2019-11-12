@@ -10,7 +10,7 @@ func main() {
 		for i := 0; i < 100; i++ {
 			c <- i
 		}
-		close(c) 
+		close(c)
 	}()
 
 	for v := range c {

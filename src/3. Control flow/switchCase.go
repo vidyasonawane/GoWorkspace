@@ -18,7 +18,7 @@ func main() {
 
 	}
 
-	switch "Bond"{
+	switch "Bond" {
 	case "James":
 		fmt.Println("James")
 	case "Bond":

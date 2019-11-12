@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("About to exit")
 }
 
-func send(even, odd ,quit chan int) {
+func send(even, odd, quit chan int) {
 	for i := 0; i < 100; i++ {
 		if i%2 == 0 {
 			even <- i
@@ -25,7 +25,7 @@ func send(even, odd ,quit chan int) {
 	close(quit)
 }
 
-func receive(even, odd , quit <-chan int) {
+func receive(even, odd, quit <-chan int) {
 	for {
 		select {
 		case v := <-even:

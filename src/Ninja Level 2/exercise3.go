@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 const (
-	a     = 34  // Untyped constant
-	b int = 23  //Typed Constant
+	a     = 34 // Untyped constant
+	b int = 23 //Typed Constant
 )
 
 func main() {

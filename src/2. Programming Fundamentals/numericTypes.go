@@ -20,10 +20,7 @@ func main() {
 	fmt.Println(z)
 	fmt.Printf("%T\n", z)
 
-
 	t = -24 // range is -128 to 127
 	fmt.Println(t)
-
-	
 
 }

@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	favSports:= "Swimming"
+	favSports := "Swimming"
 	switch favSports {
 	case "cricket":
 		fmt.Println("Cricket")

@@ -18,13 +18,14 @@ const (
 	b float64 = 12.34
 	c string  = "vidya"
 )
+const p string = "hello world"
 
 func main() {
 
 	fmt.Println(a)
 	fmt.Println(b)
 	fmt.Println(c)
-	fmt.Println(d)
+	fmt.Println(p)
 
 	fmt.Printf("%T\n", a)
 	fmt.Printf("%T\n", b)

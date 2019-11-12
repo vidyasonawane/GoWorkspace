@@ -27,9 +27,9 @@ func main() {
 		},
 	}
 
-	m:= map[string]person {
+	m := map[string]person{
 		p1.last: p1,
-		p2.last:p2,
+		p2.last: p2,
 	}
 
 	fmt.Println(m)
@@ -40,7 +40,7 @@ func main() {
 		fmt.Println(v.first)
 		fmt.Println(v.last)
 		for i, f := range v.favFlavors {
-			fmt.Println(i,f)
+			fmt.Println(i, f)
 		}
 	}
 }

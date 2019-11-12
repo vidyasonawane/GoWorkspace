@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+
 // const (
 // 	a = iota
 // 	b
@@ -12,15 +13,15 @@ import "fmt"
 // 	a = 10
 // 	b = 22
 // 	c = iota
-// 	d 
+// 	d
 // )
-// op = 10 22 2 3 
+// op = 10 22 2 3
 
 const (
 	a = "vidya"
 	b = "kunal"
 	c = iota
-	d 
+	d
 )
 
 const x = iota
@@ -32,10 +33,8 @@ func main() {
 	fmt.Println(d)
 	fmt.Println(x)
 
-	fmt.Printf("%T\n",a)
-	fmt.Printf("%T\n",b)
-	fmt.Printf("%T\n",c)
-
-
+	fmt.Printf("%T\n", a)
+	fmt.Printf("%T\n", b)
+	fmt.Printf("%T\n", c)
 
 }

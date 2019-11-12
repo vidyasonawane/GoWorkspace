@@ -1,4 +1,5 @@
 package main
+
 //Run this using terminal and notepad
 import (
 	"fmt"

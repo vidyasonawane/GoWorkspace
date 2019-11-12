@@ -9,6 +9,6 @@ func main() {
 	} else if x == "Bond" {
 		fmt.Println("Bond")
 	} else {
-		fmt.Println("No bond ;)",x)
+		fmt.Println("No bond ;)", x)
 	}
 }

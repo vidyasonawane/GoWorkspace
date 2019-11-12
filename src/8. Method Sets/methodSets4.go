@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 import "math"
+
 //will not work
 //pointer receiver and non pointer value
 type circle struct {

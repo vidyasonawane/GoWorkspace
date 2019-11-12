@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	xi := []int{3, 4, 5, 6,7,8}
+	xi := []int{3, 4, 5, 6, 7, 8}
 	total := foo(xi...)
 	fmt.Println(total)
-	
+
 	total2 := bar(xi)
 	fmt.Println(total2)
 }

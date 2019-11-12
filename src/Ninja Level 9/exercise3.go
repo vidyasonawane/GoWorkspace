@@ -16,7 +16,7 @@ func main() {
 
 	for i := 0; i < gs; i++ {
 		go func() {
-			
+
 			v := counter
 			runtime.Gosched()
 			v++
@@ -24,11 +24,11 @@ func main() {
 			fmt.Println(counter)
 			wg.Done()
 		}()
-		
+
 		fmt.Println("Num of gs: ", runtime.NumGoroutine())
 	}
 	wg.Wait()
-	fmt.Println("....",counter)
+	fmt.Println("....", counter)
 	fmt.Println("Num of gs at end: ", runtime.NumGoroutine())
 
 	fmt.Println("About to exit")

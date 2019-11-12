@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+
 //using pointers
 func main() {
 	x := 0

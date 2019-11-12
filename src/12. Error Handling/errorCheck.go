@@ -1,8 +1,9 @@
 package main
+
 import "fmt"
 
-func main(){
-	n,err := fmt.Println("Vidya")
+func main() {
+	n, err := fmt.Println("Vidya")
 	if err != nil {
 		fmt.Println(err)
 	}

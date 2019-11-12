@@ -17,9 +17,7 @@ func main() {
 
 	//x = y  //not allowed
 
-	x=myowntype(y) //type conversion not casting
+	x = myowntype(y) //type conversion not casting
 	fmt.Println(y)
-
-	
 
 }

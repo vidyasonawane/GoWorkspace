@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"os"
 	"io"
+	"os"
 	"strings"
 )
+
 //Writing into file
 func main() {
 	f, err := os.Create("hello.txt")

@@ -3,17 +3,16 @@ package main
 
 import "fmt"
 
+func main() {
 
-func main(){
-
-	p := struct{
-		name string
-		age int
+	p := struct {
+		name  string
+		age   int
 		happy bool
 	}{
-		name : "vidya",
-		age : 22,
-		happy : true,
+		name:  "vidya",
+		age:   22,
+		happy: true,
 	}
 
 	fmt.Println(p)

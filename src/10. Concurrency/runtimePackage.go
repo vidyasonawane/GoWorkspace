@@ -6,13 +6,13 @@ import (
 )
 
 func main() {
-	fmt.Println("OS\t\t",runtime.GOOS)
-	fmt.Println("ARCH\t\t",runtime.GOARCH)
-	fmt.Println("CPU\t\t",runtime.NumCPU())
-	fmt.Println("GoRoutines\t",runtime.NumGoroutine())
+	fmt.Println("OS\t\t", runtime.GOOS)
+	fmt.Println("ARCH\t\t", runtime.GOARCH)
+	fmt.Println("CPU\t\t", runtime.NumCPU())
+	fmt.Println("GoRoutines\t", runtime.NumGoroutine())
 	go foo()
 	bar()
-	fmt.Println("GoRoutines\t",runtime.NumGoroutine())
+	fmt.Println("GoRoutines\t", runtime.NumGoroutine())
 
 }
 

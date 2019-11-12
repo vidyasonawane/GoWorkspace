@@ -11,6 +11,6 @@ func main() {
 		fmt.Println("False")
 	}
 	if x == "Bond" {
-		fmt.Println(x,", James Bond")
+		fmt.Println(x, ", James Bond")
 	}
 }

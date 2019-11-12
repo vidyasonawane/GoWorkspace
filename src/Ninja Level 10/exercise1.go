@@ -12,11 +12,10 @@ func main() {
 
 	fmt.Println(<-c)
 
-	//OR 
+	//OR
 	//2. buffered channels (not an ideal one though :()
-	c2 := make(chan int,1)
+	c2 := make(chan int, 1)
 	c2 <- 44
 	fmt.Println(<-c2)
-
 
 }
