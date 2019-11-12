@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	//when you assign a function to variable, i.e called func expression.
 	f := func() {
 		fmt.Println("My first function expression")
 	}

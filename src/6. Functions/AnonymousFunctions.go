@@ -18,7 +18,7 @@ func main() {
 
 func foo() {
 	fmt.Println("I am in foo")
-	func() {
+	func() { //self executing function.
 		fmt.Println("I am in anonymous function in foo")
 	}()
 }

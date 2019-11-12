@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	foo()
 	bar("vidya")
-	
+
 	s1 := woo("Kunal")
 	fmt.Println(s1)
 

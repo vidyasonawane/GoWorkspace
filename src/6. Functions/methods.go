@@ -4,30 +4,28 @@ import "fmt"
 
 type person struct {
 	first string
-	last string
+	last  string
 }
 
-type secretAgent struct{
+type secretAgent struct {
 	person
 	ltk bool
 }
 
-
-
-func main(){
-	sa1 := secretAgent {
-		person:person{
-			first:"vidya",
-			last:"sonawane",
+func main() {
+	sa1 := secretAgent{
+		person: person{
+			first: "vidya",
+			last:  "sonawane",
 		},
-		ltk:true,
+		ltk: true,
 	}
-	sa2 := secretAgent {
-		person:person{
-			first:"kunal",
-			last:"patil",
+	sa2 := secretAgent{
+		person: person{
+			first: "kunal",
+			last:  "patil",
 		},
-		ltk:false,
+		ltk: false,
 	}
 
 	sa1.speak()
@@ -35,6 +33,6 @@ func main(){
 
 }
 
-func (r secretAgent) speak(){
-	fmt.Println("Hey",r.first,r.last)
+func (r secretAgent) speak() {
+	fmt.Println("Hey", r.first, r.last)
 }
