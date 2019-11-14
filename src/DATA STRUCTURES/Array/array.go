@@ -6,7 +6,7 @@ func main() {
 	//Array is a numbered sequence of elements of same type
 	// the number of elements is length which is the part of an array.
 	//Not dynamic: does not change in size.
-	var x [58]string
+	var x [58]string //(122-65=57 (+ 1))
 	fmt.Println(x)
 
 	fmt.Println(x[43]) //gives 44th item because of zero based index.
